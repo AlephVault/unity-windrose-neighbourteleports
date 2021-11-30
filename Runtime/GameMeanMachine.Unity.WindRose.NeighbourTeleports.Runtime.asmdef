@@ -1,0 +1,19 @@
+{
+    "name": "GameMeanMachine.Unity.WindRose.NeighbourTeleports",
+    "rootNamespace": "",
+    "references": [
+        "GUID:439919d2a7071004695af55cbbe6745b",
+        "GUID:9fb1e86edc1bf4f46bfc867526bca155",
+        "GUID:cccffde430f2245d5a04195a4583a9bf",
+        "GUID:8233aa084c7334eb18c3e9713fa443e5"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

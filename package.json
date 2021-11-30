@@ -1,0 +1,15 @@
+{
+  "name": "com.gamemeanmachine.unity.windrose.neighbourteleports",
+  "version": "0.0.1",
+  "displayName": "Game Mean Machine - Unity - WindRose Strategies - Neighbour Teleports",
+  "description": "Defines certain features to use neighbour teleports in the maps, to be able to use entire boundaries from the map as teleports to neighbour maps.",
+  "unity": "2018.1",
+  "dependencies": {
+    "com.gamemeanmachine.unity.windrose": "0.0.2"
+  },
+  "author": {
+    "name": "Game Mean Machine",
+    "email": "info@gamemeanmachine.com",
+    "url": "http://www.gamemeanmachine.com"
+  }
+}

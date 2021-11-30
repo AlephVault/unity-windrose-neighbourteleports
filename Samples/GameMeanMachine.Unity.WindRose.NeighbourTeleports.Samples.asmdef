@@ -1,0 +1,17 @@
+{
+    "name": "GameMeanMachine.Unity.WindRose.NeighbourTeleports.Samples",
+    "rootNamespace": "",
+    "references": [
+        "GUID:51c93eeead5fa7b17869dc240f6b9d0e",
+        "GUID:439919d2a7071004695af55cbbe6745b"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
