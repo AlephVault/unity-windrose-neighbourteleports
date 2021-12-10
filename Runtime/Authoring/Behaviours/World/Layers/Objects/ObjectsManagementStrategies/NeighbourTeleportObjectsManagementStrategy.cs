@@ -188,9 +188,8 @@ namespace GameMeanMachine.Unity.WindRose.NeighbourTeleports
                                     if (horizontal) Link(Direction.LEFT, this, Direction.RIGHT);
                                 }
 
-                                protected override void Awake()
+                                protected void Start()
                                 {
-                                    base.Awake();
                                     foreach (KeyValuePair<Direction, SideLink> pair in links.ToArray())
                                     {
                                         if (!Enum.IsDefined(typeof(Direction), pair.Key)
