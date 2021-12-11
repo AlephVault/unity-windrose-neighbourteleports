@@ -473,11 +473,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   links:
-    m_keys: 0200000001000000
+    m_keys: 0100000002000000
     m_values:
-    - TargetSide: 2
-      Target: {fileID: 1742125616}
     - TargetSide: 1
+      Target: {fileID: 1742125616}
+    - TargetSide: 2
       Target: {fileID: 1742125616}
 --- !u!114 &881095123
 MonoBehaviour:
@@ -3655,11 +3655,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   links:
-    m_keys: 0200000001000000
+    m_keys: 0100000002000000
     m_values:
-    - TargetSide: 2
-      Target: {fileID: 881095122}
     - TargetSide: 1
+      Target: {fileID: 881095122}
+    - TargetSide: 2
       Target: {fileID: 881095122}
 --- !u!114 &1742125617
 MonoBehaviour:
