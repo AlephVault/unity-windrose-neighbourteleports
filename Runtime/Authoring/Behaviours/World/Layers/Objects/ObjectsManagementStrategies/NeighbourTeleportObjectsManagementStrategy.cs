@@ -290,7 +290,14 @@ namespace GameMeanMachine.Unity.WindRose.NeighbourTeleports
                                 ) {
                                     if (from == to)
                                     {
-                                        return new Tuple<ushort, ushort>(objXi, objYi);
+                                        if (from == Direction.LEFT || from == Direction.RIGHT)
+                                        {
+                                            return new Tuple<ushort, ushort>(objXi, objYi);
+                                        }
+                                        else
+                                        {
+                                            return new Tuple<ushort, ushort>((ushort)(targetW - objW - objXi), objYi);
+                                        }
                                     }
 
                                     switch (from)

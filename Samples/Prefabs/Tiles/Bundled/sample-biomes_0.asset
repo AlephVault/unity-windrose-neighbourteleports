@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: sample-biomes_0
   m_EditorClassIdentifier: 
   sourceTile: {fileID: 11400000, guid: 6de0bfafbc975d247a349fbac2d4c126, type: 2}
-  strategies: []
+  strategies:
+  - {fileID: 11400000, guid: 5c7d073fd3a7f6544bc02455cd62da38, type: 2}
