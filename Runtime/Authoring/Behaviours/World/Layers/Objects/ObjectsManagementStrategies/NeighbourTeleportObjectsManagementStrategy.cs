@@ -58,10 +58,19 @@ namespace GameMeanMachine.Unity.WindRose.NeighbourTeleports
                                 public class SideLinksPropertyDrawer : DictionaryPropertyDrawer {}
 #endif
 
-                                // Keeps the track of all the links this map has. Only one
-                                // link per direction will exist.
+                                /// <summary>
+                                ///   Keeps the track of all the links this map has. Only one
+                                ///   link per direction will exist.
+                                /// </summary>
                                 [SerializeField]
                                 private SideLinks links = new SideLinks();
+
+                                /// <summary>
+                                ///   Whether to force the movement or not when an object
+                                ///   arrives to this (connected) map.
+                                /// </summary>
+                                [SerializeField]
+                                private bool forceMovement = true;
 
                                 // Gets the boundary size of the underlying map.
                                 private static ushort BoundarySize(
@@ -405,7 +414,7 @@ namespace GameMeanMachine.Unity.WindRose.NeighbourTeleports
                                             obj.Attach(targetMap, coordinates.Item1, coordinates.Item2, true);
                                             obj.CancelMovement();
                                             obj.Orientation = opposite;
-                                            obj.StartMovement(opposite);
+                                            if (link.Target.forceMovement) obj.StartMovement(opposite);
                                         }, obj, direction, link.Target, link.TargetSide);
                                     }
                                 }
