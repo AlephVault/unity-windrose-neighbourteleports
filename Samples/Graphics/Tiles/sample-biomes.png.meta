@@ -42,6 +42,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -280,6 +281,13 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      sample-biomes_2: -6487911600059751921
+      sample-biomes_4: -5683362058259450701
+      sample-biomes_0: 4012677780393308353
+      sample-biomes_1: 6260645623467875199
+      sample-biomes_3: -5697667789067171163
+      sample-biomes_5: -4607500121267965752
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

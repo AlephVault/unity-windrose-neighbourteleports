@@ -379,6 +379,16 @@ namespace GameMeanMachine.Unity.WindRose.NeighbourTeleports
                                     }
                                 }
 
+                                public override bool CanAllocateMovement(ObjectStrategy strategy, ObjectsManagementStrategyHolder.Status status, Direction direction, bool continued)
+                                {
+                                    return true;
+                                }
+
+                                public override bool CanClearMovement(ObjectStrategy strategy, ObjectsManagementStrategyHolder.Status status)
+                                {
+                                    return true;
+                                }
+
                                 /// <summary>
                                 ///   By the end of the movement, and after the events such as
                                 ///   <see cref="MapObject.onMovementFinished" />, a maybe-teleport
