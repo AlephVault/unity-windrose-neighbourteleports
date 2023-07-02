@@ -1,21 +1,21 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using GameMeanMachine.Unity.WindRose.Authoring.Behaviours.Entities.Objects;
-using GameMeanMachine.Unity.WindRose.Authoring.Behaviours.Entities.Objects.Strategies;
-using GameMeanMachine.Unity.WindRose.Authoring.Behaviours.World;
-using GameMeanMachine.Unity.WindRose.Authoring.Behaviours.World.Layers.Objects;
-using GameMeanMachine.Unity.WindRose.Authoring.Behaviours.World.Layers.Objects.ObjectsManagementStrategies;
-using GameMeanMachine.Unity.WindRose.NeighbourTeleports.Authoring.Behaviours.Entities.Objects.Strategies;
-using GameMeanMachine.Unity.WindRose.Types;
-using UnityEngine;
+using AlephVault.Unity.WindRose.Authoring.Behaviours.Entities.Objects;
+using AlephVault.Unity.WindRose.Authoring.Behaviours.Entities.Objects.Strategies;
+using AlephVault.Unity.WindRose.Authoring.Behaviours.World;
+using AlephVault.Unity.WindRose.Authoring.Behaviours.World.Layers.Objects;
+using AlephVault.Unity.WindRose.Authoring.Behaviours.World.Layers.Objects.ObjectsManagementStrategies;
+using AlephVault.Unity.WindRose.NeighbourTeleports.Authoring.Behaviours.Entities.Objects.Strategies;
+using AlephVault.Unity.WindRose.Types;
 using AlephVault.Unity.Support.Generic.Authoring.Types;
+using UnityEngine;
 #if UNITY_EDITOR
 using UnityEditor;
 #endif
 
 
-namespace GameMeanMachine.Unity.WindRose.NeighbourTeleports
+namespace AlephVault.Unity.WindRose.NeighbourTeleports
 {
     namespace Authoring
     {

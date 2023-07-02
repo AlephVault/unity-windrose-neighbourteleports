@@ -1,9 +1,9 @@
 {
-    "name": "GameMeanMachine.Unity.WindRose.NeighbourTeleports.Samples",
+    "name": "AlephVault.Unity.WindRose.NeighbourTeleports.Samples",
     "rootNamespace": "",
     "references": [
-        "GUID:51c93eeead5fa7b17869dc240f6b9d0e",
-        "GUID:439919d2a7071004695af55cbbe6745b"
+        "GUID:d61261d1a98c4fafa1e0b59ab5c62fcc",
+        "GUID:889eacc27d54476898c746f0f1d67d5a"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

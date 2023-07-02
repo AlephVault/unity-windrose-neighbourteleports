@@ -1,15 +1,15 @@
 {
-  "name": "com.gamemeanmachine.unity.windrose.neighbourteleports",
+  "name": "com.alephvault.unity.windrose.neighbourteleports",
   "version": "0.0.3",
-  "displayName": "Game Mean Machine - Unity - WindRose Strategies - Neighbour Teleports",
+  "displayName": "Aleph Vault - Unity - WindRose Strategies - Neighbour Teleports",
   "description": "Defines certain features to use neighbour teleports in the maps, to be able to use entire boundaries from the map as teleports to neighbour maps.",
   "unity": "2018.1",
   "dependencies": {
-    "com.gamemeanmachine.unity.windrose": "0.0.6"
+    "com.alephvault.unity.windrose": "0.0.6"
   },
   "author": {
-    "name": "Game Mean Machine",
-    "email": "info@gamemeanmachine.com",
-    "url": "http://www.gamemeanmachine.com"
+    "name": "Aleph Vault",
+    "email": "info@alephvault.com",
+    "url": "http://www.alephvault.com"
   }
 }

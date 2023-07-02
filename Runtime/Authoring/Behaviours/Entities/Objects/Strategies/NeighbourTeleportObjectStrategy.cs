@@ -1,11 +1,11 @@
 using System;
-using GameMeanMachine.Unity.WindRose.Authoring.Behaviours.Entities.Objects.Strategies;
-using GameMeanMachine.Unity.WindRose.Authoring.Behaviours.Entities.Objects.Strategies.Base;
-using GameMeanMachine.Unity.WindRose.NeighbourTeleports.Authoring.Behaviours.World.Layers.Objects.ObjectsManagementStrategies;
+using AlephVault.Unity.WindRose.Authoring.Behaviours.Entities.Objects.Strategies;
+using AlephVault.Unity.WindRose.Authoring.Behaviours.Entities.Objects.Strategies.Base;
+using AlephVault.Unity.WindRose.NeighbourTeleports.Authoring.Behaviours.World.Layers.Objects.ObjectsManagementStrategies;
 using UnityEngine;
 
 
-namespace GameMeanMachine.Unity.WindRose.NeighbourTeleports
+namespace AlephVault.Unity.WindRose.NeighbourTeleports
 {
     namespace Authoring
     {

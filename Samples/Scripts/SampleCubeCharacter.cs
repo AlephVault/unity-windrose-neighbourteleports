@@ -1,10 +1,10 @@
-using GameMeanMachine.Unity.WindRose.Authoring.Behaviours.Entities.Objects;
+using AlephVault.Unity.WindRose.Authoring.Behaviours.Entities.Objects;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 
-namespace GameMeanMachine.Unity.WindRose.NeighbourTeleports
+namespace AlephVault.Unity.WindRose.NeighbourTeleports
 {
     namespace Samples
     {
